@@ -1,6 +1,4 @@
-**Status:** Archive (code is provided as-is, no updates expected)
-
-# Generating Reviews and Discovering Sentiment
+# Replicating Generating Reviews and Discovering Sentiment
 
 Code for [Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444) (Alec Radford, Rafal Jozefowicz, Ilya Sutskever).
 
