@@ -61,7 +61,37 @@ ROC (Receiver Operating Characteristic) curves are a valuable tool for assessing
 
 The ROC curves for the six datasets suggest varying degrees of model performance. While datasets like Amazon and Hotel show strong discrimination between classes, others, such as Reddit, exhibit a trade-off between precision and recall due to class imbalances.
 
-**Reflection**
+## Reflection
 
 The overall replication of the paper can be considered a success. When testing the results with our new data set, the model was largely able to perform as well as it claimed in the paper. However, we did
 encounter certain problems while replicating the original work. An example of the problems we faced included not being able to run the code originally provided by the paper. As such, we had to use the PyTorch version and build the classifier from scratch. We eventually succeeded in reproducing the original code and pertaining the model with new data.
+
+## Related Projects:question: 👨‍💻 🛰️
+
+**Data Analysis**
+
+<code>[Olympic-Weightlifting-Data-Analysis Using R](https://github.com/vinhphuphan/Olympic-Weightlifting-Data-Analysis)</code> 📊
+
+<code>[Australia Road Deaths Statistic Report Using Excel](https://github.com/vinhphuphan/Australia-Road-Deaths-Statistic)</code> 📊
+
+<code>[Titanic - Machine Learning from Disaster using Python](https://github.com/vinhphuphan/Titanic-Machine-Learning-from-Disaster)</code> 📊
+
+<code>[Australian Politicians Twitter Data Analysis Using Python](https://github.com/vinhphuphan/Tweets-Analysis)</code> 📊
+
+**Data Science Applications**
+
+<code>[Text Classification With Movie Reviews](https://github.com/vinhphuphan/Text-Classification-With-Movie-Reviews/)</code> 📊
+
+<code>[Living Species Image Classification using Python](https://github.com/vinhphuphan/Living-Species-Image-Classification)</code> 📊
+
+<code>[Name Entity Recognition](https://github.com/vinhphuphan/Name-Entity-Recognition)</code> 📊
+
+**Website Front End Practice**
+
+<code>[Hospital-Landing-Page](https://github.com/vinhphuphan/Hospital-Landing-Page/)</code> 📊
+
+<code>[LaslesVPN Landing Page](https://github.com/vinhphuphan/Lasles-VPN-Landing-Page)</code> 📊
+
+<code>[Frontend Mentor Challenge Submission Using HTML&CSS](https://github.com/vinhphuphan/Frontendmentor-Challenge-HTML-CSS)</code> 📊
+
+**Have fun building!** 🚀
