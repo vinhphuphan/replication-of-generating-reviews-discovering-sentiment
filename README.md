@@ -1,4 +1,4 @@
-# Replication of Learning to Generate Reviews and Discovering Sentiment
+# Replication of Learning to Generate Reviews and Discovering Sentiment question: 👨‍💻 🛰️
 
 In today's world of abundant research papers, reproducing and confirming the findings in these papers is getting harder. This repository is aimed to reproduce the results of the paper titled ”Learning to Generate Reviews and Discovering Sentiment”.  Our main goal is to show the initial claim of paper holds and we further replicate the findings on unseen data sets to show that the results are consistent.
 
@@ -26,3 +26,30 @@ To successfully replicate the source work
   * Implement the same performance evaluation metrics as used in the paper: Test Accuracy, Precision, AUC-ROC curves.
 
 ## Result
+
+**Distribution of Sentiment**
+
+
+**Accuracy and F1 Score**
+| Dataset      | Accuracy (%) | F1 Score (%) |
+|--------------|--------------|-------------|
+|  Amazon   |    95.24     |    97.48     |
+| SST   |     91.76    |   91.87    |
+| Yelp     | 94.4         | 94.37       |
+| IMDB    | 92.32        | 92.42       |
+| Reddit   | 73.66        | 81.41       |
+| Hotel   | 92.1         | 95.62       |
+
+These results collectively show that the model's performance replicates well across multiple datasets, with some variations in more challenging domains like Reddit.
+
+**Classification Report**
+| Dataset      | Precision (Class 0) | Precision (Class 1) | Recall (Class 0) | Recall (Class 1) | F1-Score (Class 0) | F1-Score (Class 1) | Accuracy | Support |
+|--------------|----------------------|----------------------|------------------|------------------|--------------------|--------------------|----------|---------|
+| SST data     | 0.93                 | 0.91                 | 0.90             | 0.93             | 0.92               | 0.92               | 0.92     | 1821    |
+| Amazon data  | 0.75                 | 0.96                 | 0.47             | 0.99             | 0.58               | 0.97               | 0.95     | 6926    |
+| Yelp data    | 0.94                 | 0.94                 | 0.94             | 0.94             | 0.94               | 0.94               | 0.94     | 4000    |
+| IMDB data    | 0.93                 | 0.92                 | 0.92             | 0.93             | 0.92               | 0.92               | 0.92     | 5000    |
+| Reddit data  | 0.67                 | 0.76                 | 0.46             | 0.88             | 0.55               | 0.81               | 0.74     | 2411    |
+| Hotel data   | 0.76                 | 0.93                 | 0.50             | 0.98             | 0.60               | 0.96               | 0.92     | 1000    |
+
+
